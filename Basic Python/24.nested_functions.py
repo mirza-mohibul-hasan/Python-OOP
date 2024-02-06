@@ -1,0 +1,1 @@
+print(round(abs(float(input("Enter a negative floating point: ")))))
