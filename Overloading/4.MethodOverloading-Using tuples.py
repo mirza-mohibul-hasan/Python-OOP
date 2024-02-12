@@ -1,5 +1,5 @@
 class mycalculator:
-    def sum(self, *nums):  # nums is tuple here
+    def sum(self, *nums):  # nums is tuple here, receivng arguments
         sum = 0
         for num in nums:
             sum += num

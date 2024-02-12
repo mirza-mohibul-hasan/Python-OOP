@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self, *info): #tuple
+    def __init__(self, *info):  # tuple, index should be remembered
         if len(info) == 3:
             self.name = info[0]
             self.Id = info[1]

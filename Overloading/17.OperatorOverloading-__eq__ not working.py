@@ -1,4 +1,4 @@
-# For Less Than operator overloading
+# Equal
 class sum:
     def __init__(self, x, y):
         self.num = x + y

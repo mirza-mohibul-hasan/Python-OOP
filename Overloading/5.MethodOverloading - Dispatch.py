@@ -1,3 +1,4 @@
+# A decorator is a special type of function that can be used to modify the behavior of another function or method. Decorators are often used to extend or enhance the functionality of functions without modifying their actual code.
 # A Dispatch decorator is used to select between different implementations of the same abstract method based on the signature, or list of types.
 from multipledispatch import dispatch
 

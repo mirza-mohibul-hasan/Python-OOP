@@ -1,0 +1,13 @@
+-> The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
+
+->Polymorphism: Polymorphism is a term used in Python to refer to an object's ability to take on multiple forms. The term is derived from two distinct terms: poly, which means numerous, and morphs, which means forms.
+
+->Two or more methods have the same name but different numbers of parameters or different types of parameters, or both. These methods are called overloaded methods and this is called method overloading. 
+
+-> Like other languages (for example, method overloading in C++) do, python does not support method overloading by default. But there are different ways to achieve method overloading in Python. 
+
+-> The problem with method overloading in Python is that we may overload the methods but can only use the latest defined method. 
+
+-> Method Overloading is an example of Compile time polymorphism.
+
+->Dispatch Decorator: Dispatch decorators or functions are mechanisms for performing different things based on signature, or list of types. It is used to select between different implementations of the same abstract method based on the signature, integer, string, or list of data types.
