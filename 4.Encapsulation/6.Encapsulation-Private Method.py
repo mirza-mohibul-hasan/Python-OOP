@@ -7,14 +7,8 @@ class Student:
 
     def display(self):
         print(f"Student ID:{self.__id}")
-        print(f"\tName:{self.name}")
-        print(f"\tDept:{self.dept}")
-
-    def display_w_private(self):
-        print(f"Student ID:{self.__id}")
         print(f"\tName:{self.__name}")
         print(f"\tDept:{self.__dept}")
-        self.__secret_Info()
 
     def set_Id(self, id):
         if (id > 0):
@@ -38,10 +32,11 @@ class Student:
         return self.__dept
 
     def __secret_Info(self):
-        print(f"{self.__name} secret message")
+        return "Secret message"
 
 
 # step-01
 s1 = Student("Arafat", 190115, "CSE")
+s1.display()
 
-s1.display_w_private()
+s1.__secret_Info()
